@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bettertnt",
+  "version": "${version}",
+  "name": "BetterTNT",
+  "description": "Better TNT items and mechanics",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/bettertnt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.siverek.bettertnt.client.BettertntClient"
+    ],
+    "main": [
+      "org.siverek.bettertnt.Bettertnt"
+    ]
+  },
+  "mixins": [
+    "bettertnt.mixins.json",
+    {
+      "config": "bettertnt.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
