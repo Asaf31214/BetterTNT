@@ -1,6 +1,7 @@
 package org.siverek.bettertnt;
 
 import net.fabricmc.api.ModInitializer;
+import org.siverek.bettertnt.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

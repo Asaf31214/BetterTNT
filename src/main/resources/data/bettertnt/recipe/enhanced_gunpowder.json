@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G",
+    "G#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gunpowder"
+    },
+    "G": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "bettertnt:enhanced_gunpowder"
+  }
+}
