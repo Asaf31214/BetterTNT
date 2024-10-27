@@ -25,7 +25,7 @@ public class ModBlocks {
     }
 
     public static final Block ENHANCED_TNT = registerBlock("enhanced_tnt",
-            new TntBlock(AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().solidBlock(Blocks::never)));
+            new EnhancedTntBlock(AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().solidBlock(Blocks::never)));
 
     public static void registerModBlocks() {
         Bettertnt.LOGGER.info("Registering mod blocks for " + Bettertnt.MOD_ID);
