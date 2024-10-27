@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bettertnt:block/enhanced_tnt"
+    }
+  }
+}

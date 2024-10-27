@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "bettertnt:block/enhanced_tnt_side",
+    "south": "bettertnt:block/enhanced_tnt_side",
+    "east": "bettertnt:block/enhanced_tnt_side",
+    "west": "bettertnt:block/enhanced_tnt_side",
+    "up": "bettertnt:block/enhanced_tnt_top",
+    "down": "bettertnt:block/enhanced_tnt_bottom"
+  }
+}
